@@ -1,12 +1,25 @@
 {
-  "name": "Quartou",
+  "name": "quartou",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quartou",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:riccihenrique/Quartou-npx.git"
+  },
+  "keywords": [
+    "quartou"
+  ],
+  "author": "ricciHenrique",
+  "license": "MIT",
+  "bin": {
+    "comecoufds": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/riccihenrique/Quartou-npx/issues"
+  },
+  "homepage": "https://github.com/riccihenrique/Quartou-npx/blob/master/README.md"
 }
