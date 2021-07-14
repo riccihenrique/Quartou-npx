@@ -13,6 +13,7 @@ const quartou = () => {
 
     const platform = process.platform;
 
+    console.log('Quartooou');
     switch(platform) {
         case 'win32':
             exec(windowscmd)
